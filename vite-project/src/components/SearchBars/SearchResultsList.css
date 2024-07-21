@@ -1,0 +1,37 @@
+/* SearchResultsList.css */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    color: black;
+    background-color: rgba(80, 150, 255, 0.263);
+    border-radius: 10px;
+    padding: 40px 40px;
+    width: 100%;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  

@@ -1,0 +1,48 @@
+/* SpellSearch.module.css */
+.main {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+  
+  .start {
+    font-size: 2em;
+    margin-bottom: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+.searchBar {
+    width: 40%;
+}
+
+.searchResultsList {
+    width: 50%;
+}
+
+  .searchBarContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .searchBarContainer .search-bar {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 830px) {
+    .start {
+        margin-top: 10%;
+    }
+
+    .art {
+      margin-top: 20%;
+    }
+}

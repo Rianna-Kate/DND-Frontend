@@ -1,0 +1,32 @@
+.App {
+    height: 100wh;
+    width: 100wh;
+    color: white;
+}
+
+.overlay{
+    background:#0c207a;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 100vw;
+    height: 80vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: 600px;
+    right: 0vw;
+    border-radius: 0px;
+    background: rgba(43, 71, 209, 0.7);
+    filter: blur(100px);
+    z-index: -1;
+    overflow: hidden;
+}
