@@ -31,6 +31,14 @@
     border: none;
     cursor: pointer;
   }
+
+  .actual-text {
+    font-family: Arial, sans-serif;
+  }
+
+  .hover-text {
+    font-family: Arial, sans-serif;
+  }
   
   /* button styling */
   .button {
@@ -41,7 +49,6 @@
     letter-spacing: 3px;
     text-decoration: none;
     font-size: var(--fs-size);
-    font-family: "Arial";
     position: relative;
     text-transform: uppercase;
     color: transparent;
@@ -65,3 +72,8 @@
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
   }
+
+    /* hover */
+    .button:hover .actual-text {
+      opacity: 0;
+    }

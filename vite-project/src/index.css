@@ -1,7 +1,11 @@
+@font-face {
+  font-family: 'PhiHandwritten';
+  src: url('./fonts/phitradesign-handwritten-thin.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'PhiHandwritten', sans-serif;
 }
-

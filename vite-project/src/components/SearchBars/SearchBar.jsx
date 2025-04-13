@@ -14,7 +14,7 @@ export const SearchBar = ({setResults}) => {
                 value &&
                 user &&
                 user.name &&
-                user.name.toLowerCase().includes(value)
+                user.name.toLowerCase().includes(value.toLowerCase())
             );
         });
         setResults(results);
@@ -22,6 +22,7 @@ export const SearchBar = ({setResults}) => {
     }
 
     const handleChange = (value) => {
+        console.log("Search input:", value);
         setInput (value)
         fetchData(value)
     }

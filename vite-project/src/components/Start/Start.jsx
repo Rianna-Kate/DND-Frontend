@@ -17,9 +17,9 @@ export const Start = () => {
 
       <div className="startButton">
         <Link to="/Spell-Search">
-          <button class="button" data-text="Awesome">
-            <span class="actual-text">&nbsp;Enter&nbsp;</span>
-            <span aria-hidden="true" class="hover-text">&nbsp;Enter&nbsp;</span>
+          <button className="button" data-text="Awesome">
+            <span className="actual-text" >&nbsp;Enter&nbsp;</span>
+            <span aria-hidden="true" className="hover-text">&nbsp;Enter&nbsp;</span>
           </button>
         </Link>
       </div>
