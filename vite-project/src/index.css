@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'PhiHandwritten';
-  src: url('./fonts/phitradesign-handwritten-thin.ttf') format('truetype');
+  src: url('/fonts/phitradesign-handwritten-thin.ttf') format('truetype');
 }
 
 * {

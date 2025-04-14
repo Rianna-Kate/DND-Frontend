@@ -16,7 +16,7 @@ export const Start = () => {
       </div>
 
       <div className="startButton">
-        <Link to="/Spell-Search">
+        <Link to="./Spell-Search">
           <button className="button" data-text="Awesome">
             <span className="actual-text" >&nbsp;Enter&nbsp;</span>
             <span aria-hidden="true" className="hover-text">&nbsp;Enter&nbsp;</span>

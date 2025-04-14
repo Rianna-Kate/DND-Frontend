@@ -18,12 +18,12 @@ export const LevelSearch = () => {
     <section>
       {loading ? 
         <div className={styles.logoLevel}>
-          <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTltM3k3OHoxNzZmcHJyc3p6aGQ5a3FpYjZxY3Bmd3VhYW5oMmp4dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ltnwrUlKwDQPmaA2sI/giphy.gif" alt="Happy Computer" />
+          <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3lxNGNhYXV0MzBxcHVxanQ0dHo3dWd0MjVnbjY3YnlpMm4wMGxpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/lMa32EDsr7NrDwg1no/giphy.gif" alt="Happy Computer" />
         </div>
         :
     <div>
     <div className={styles.mainLevel}>
-    <img className={styles.art} src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTFleHgyN3lvNDlyZW10YnUwbno1aWtwZHFnM2EwbTNxdW9wdmQ0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kUzZPC32NH7qteJp3G/giphy.gif" alt="Happy Computer" />
+    <img className={styles.art} src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzM1MmNtazJhaHc5azdjN2cxajZmaDhldW1peXNnODdwcDc1ZW9xdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BRLfMn2qEN1Xwpoc4D/giphy.gif" alt="Happy Computer" />
         <h1 className={styles.startLevel}>
           Search by Level!
         </h1>

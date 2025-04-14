@@ -4,7 +4,8 @@
 }
 
 .art {
-    margin-bottom: 0%;
+    margin-top: -1%;
+    margin-bottom: -5%;
 }
 
 .startLevel {
@@ -24,8 +25,31 @@
     margin-bottom: 0%;
 }
 
+/* Ipad/Tablet Dimensions */
 @media screen and (max-width: 830px) {
     .startLevel {
         margin-bottom: 10%;
+    }
+}
+
+/* Iphone Pro Max 12 Dimensions */
+@media screen and (max-width:490px) {
+    .startLevel {
+        margin-top: 5%;
+    }
+
+    .logoLevel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30%;
+      width: 5%;
+      padding-left: 55%;
+    }
+
+    .art {
+        margin-top: -5%;
+        margin-bottom: -25%;
+        margin-left: -12%;
     }
 }

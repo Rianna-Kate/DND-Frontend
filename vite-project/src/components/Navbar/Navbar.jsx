@@ -20,15 +20,15 @@ export const Navbar = () => {
             className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
             onClick={() => setMenuOpen(false)}
             >
-                <Link to="/Spell-Search">
+                <Link to="DND-Frontend/Spell-Search">
                     <li className={styles.btnDonate}> By Spellname </li>
                 </Link>
 
-                <Link to="/Class-Search">
+                <Link to="DND-Frontend/Class-Search">
                     <li className={styles.btnDonate}> By Class </li>
                 </Link>
 
-                <Link to="/Level-Search">
+                <Link to="DND-Frontend/Level-Search">
                     <li className={styles.btnDonate}> By Level </li>
                 </Link>
             </ul>

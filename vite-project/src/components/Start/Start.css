@@ -77,3 +77,21 @@
     .button:hover .actual-text {
       opacity: 0;
     }
+
+@media screen and (max-width: 490px) {
+    .start {
+    margin-top: 10%;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .logo {
+        width: 67%;
+        margin-top: 35%;
+    }
+}

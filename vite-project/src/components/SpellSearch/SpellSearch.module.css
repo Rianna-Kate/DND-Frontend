@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 5%;
+  width:%;
 }
   
   .start {
@@ -44,5 +45,33 @@
 
     .art {
       margin-top: 20%;
+    }
+}
+
+  @media screen and (max-width: 490px) {
+    .start {
+        margin-top: 10%;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30%;
+      width: 5%;
+      padding-left: 55%;
+    }
+
+    .art {
+    width: 75%;
+    }
+
+    .searchBar {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      width: 75%;
+      align-items: center;
     }
 }
